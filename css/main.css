@@ -1,0 +1,27 @@
+Body {
+  background-color: white;
+}
+
+.case {
+  background-color: red;
+  margin: 50px;
+  border-radius: 5%;
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+}
+
+Canvas {
+  background-color: #33334d;
+  margin: 100px;
+  border-radius: 5%;
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  max-width: 1000px;
+  max-height: 800px;
+}
+
+h2 {
+  text-align: center;
+}
