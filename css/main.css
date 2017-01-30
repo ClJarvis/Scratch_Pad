@@ -1,5 +1,5 @@
 Body {
-  background-color: white;
+  background-color: hsla(0, 0%, 62%, 0.3);
 }
 
 .case {
@@ -13,16 +13,16 @@ Body {
 
 Canvas {
   background-color: #33334d;
-  margin-top: 25px;
-  margin-right: 10px;
-  margin-bottom: 45px;
-  margin-left: 10px;
+  margin-top: 5%;
+  margin-right: -10%;
+  margin-bottom: 5%;
+  margin-left: 5%;
   border-radius: 5%;
   border-color: black;
   border-width: 3px;
   border-style: groove;
-  max-width: 1000px;
-  max-height: 900px;
+/* \ max-width: 1000px;
+  max-height: 900px; */
 }
 
 h2 {
