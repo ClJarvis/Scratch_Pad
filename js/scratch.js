@@ -18,6 +18,7 @@ function draw(e) {
   console.log(e);
   ctx.strokeStyle = `#47476B`; //E0E0EB
   ctx.beginPath();
+  ctx.lineWidth=5;
   //start from
   ctx.moveTo(lastX, lastY);
   //go to
@@ -26,7 +27,6 @@ function draw(e) {
   [lastX, lastY] = [e.offsetX, e.offsetY];
 
 
-  ctx.lineWidth=10;
  // if(ctx.lineWidth >= 100 || ctx.lineWidth <=1) {
   //  direction = !direction;
 //  }
@@ -36,11 +36,13 @@ function draw(e) {
     ctx.lineWidth--;
   }
 }
+// TRYING TO GET SINGLE LINE
+//canvas.addEventListener('mousedown', () => isDrawing = true);
 
-canvas.addEventListener('mousedown', (e) => {
+  canvas.addEventListener('mousedown', (e) => {
   isDrawing = true;
   [lastX, lastY] = [e.offsetX, e.offsetY];
-});
+  });
 
 canvas.addEventListener('mousemove', draw);
 canvas.addEventListener('mouseup', () => isDrawing = false);
