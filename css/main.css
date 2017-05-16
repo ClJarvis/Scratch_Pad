@@ -1,4 +1,4 @@
-Body {
+body {
   background-color: hsla(0, 0%, 62%, 0.3);
 }
 
@@ -25,12 +25,12 @@ canvas {
   max-height: 900px; */
 }
 
-h2 {
+#gamename {
   text-align: center;
-  color: #d4c889;
+  color: #f1d750;
   font-family: cursive;
   font-size: 3em;
-  /*text-decoration: shadow;  */
+  text-shadow: 4px 1px 3px black;
 }
 
 .control {
@@ -46,13 +46,14 @@ h2 {
 }
 
 .inner{
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   background-color: white;
   border-radius: 100%;
-  border: 2px;
+  border: 3px;
   border-style: outset;
-  border-color: black;
+  border-color: rgba(0, 0, 0, 0.32);
+  margin: 4px 30px 4px 5px;
 }
 
 #left{
