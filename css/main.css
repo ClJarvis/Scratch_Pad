@@ -11,10 +11,10 @@ Body {
   border-style: solid;
 }
 
-Canvas {
-  background-color: #33334d;
-  margin-top: 5%;
-  margin-right: -10%;
+canvas {
+  background-color: #9e9ea2; /*#33334d; */
+  margin-top: -2%;
+  margin-right: 50px;
   margin-bottom: 5%;
   margin-left: 5%;
   border-radius: 5%;
@@ -27,4 +27,38 @@ Canvas {
 
 h2 {
   text-align: center;
+  color: #d4c889;
+  font-family: cursive;
+  font-size: 3em;
+  /*text-decoration: shadow;  */
+}
+
+.control {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 100%;
+  border: 3px;
+  border-style: groove; /*outset */
+  border-color: black;
+  /* margin-left: 35px; */
+
+}
+
+.inner{
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 100%;
+  border: 2px;
+  border-style: outset;
+  border-color: black;
+}
+
+#left{
+  margin: -30px 55px 35px 35px;
+}
+
+#right{
+  margin: -130px 555px 35px 935px;
 }
