@@ -31,6 +31,7 @@ canvas {
   font-family: cursive;
   font-size: 3em;
   text-shadow: 4px 1px 3px black;
+  margin-top: auto;
 }
 
 .control {
