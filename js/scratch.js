@@ -18,7 +18,7 @@ function draw(e) {
   console.log(e);
   ctx.strokeStyle = `#47476B`; //E0E0EB
   ctx.beginPath();
-  ctx.lineWidth=5;
+  ctx.lineWidth=1; //was 5
   //start from
   ctx.moveTo(lastX, lastY);
   //go to
